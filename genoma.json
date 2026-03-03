@@ -1,46 +1,153 @@
 {
-  "nodes": [
-    {
-      "id": "sysInput",
-      "type": "inputNode",
-      "position": {
-        "x": -200,
-        "y": 350
-      },
-      "data": {
-        "label": "System Input",
-        "schema": []
-      },
-      "measured": {
-        "width": 334,
-        "height": 165
-      },
-      "selected": false,
-      "dragging": false
+  "meta": {
+    "id": null,
+    "name": "test06",
+    "version": "v0.1",
+    "graph": {
+      "nodes": [
+        {
+          "id": "sysInput",
+          "type": "inputNode",
+          "position": {
+            "x": -200,
+            "y": 350
+          },
+          "data": {
+            "label": "System Input",
+            "schema": []
+          },
+          "measured": {
+            "width": 334,
+            "height": 165
+          },
+          "selected": false,
+          "dragging": false
+        },
+        {
+          "id": "sysOutput",
+          "type": "outputNode",
+          "position": {
+            "x": 900,
+            "y": 350
+          },
+          "data": {
+            "label": "System Output",
+            "schema": []
+          },
+          "measured": {
+            "width": 334,
+            "height": 165
+          },
+          "selected": false,
+          "dragging": false
+        }
+      ],
+      "edges": [],
+      "viewport": {
+        "x": 412.01,
+        "y": 154.54,
+        "zoom": 0.58
+      }
     },
+    "assets": [
+      {
+        "id": "8ec26e87-1ffd-441b-81b7-5cd02b995cfd",
+        "name": "studio",
+        "url": "http://localhost:3001/studio?project=test06&owner=alan-w-arch",
+        "source": "Direct Link",
+        "size": "Remote",
+        "createdAt": "2026-03-03T11:42:11.935Z"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "8ec26e87-1ffd-441b-81b7-5cd02b995cfd",
+        "name": "studio",
+        "url": "http://localhost:3001/studio?project=test06&owner=alan-w-arch",
+        "source": "Direct Link",
+        "size": "Remote",
+        "createdAt": "2026-03-03T11:42:11.935Z"
+      }
+    ],
+    "readme": "",
+    "meta": {},
+    "lastSaved": "2026-03-03T11:42:22.571Z"
+  },
+  "graph": {
+    "nodes": {
+      "0": {
+        "id": "sysInput",
+        "type": "inputNode",
+        "position": {
+          "x": -200,
+          "y": 350
+        },
+        "data": {
+          "label": "System Input",
+          "schema": []
+        },
+        "measured": {
+          "width": 334,
+          "height": 165
+        },
+        "selected": false,
+        "dragging": false
+      },
+      "1": {
+        "id": "sysOutput",
+        "type": "outputNode",
+        "position": {
+          "x": 900,
+          "y": 350
+        },
+        "data": {
+          "label": "System Output",
+          "schema": []
+        },
+        "measured": {
+          "width": 334,
+          "height": 165
+        },
+        "selected": false,
+        "dragging": false
+      },
+      "sys_input": {
+        "id": "sys_input",
+        "type": "sys_input",
+        "label": "Input Data",
+        "x": 100,
+        "y": 300,
+        "width": 200,
+        "height": 100,
+        "data": {
+          "datasetId": null
+        },
+        "status": "idle"
+      },
+      "sys_output": {
+        "id": "sys_output",
+        "type": "sys_output",
+        "label": "Model Output",
+        "x": 800,
+        "y": 300,
+        "width": 200,
+        "height": 100,
+        "data": {
+          "result": null
+        },
+        "status": "idle"
+      }
+    },
+    "edges": []
+  },
+  "assets": [
     {
-      "id": "sysOutput",
-      "type": "outputNode",
-      "position": {
-        "x": 900,
-        "y": 350
-      },
-      "data": {
-        "label": "System Output",
-        "schema": []
-      },
-      "measured": {
-        "width": 334,
-        "height": 165
-      },
-      "selected": false,
-      "dragging": false
+      "id": "8ec26e87-1ffd-441b-81b7-5cd02b995cfd",
+      "name": "studio",
+      "url": "http://localhost:3001/studio?project=test06&owner=alan-w-arch",
+      "source": "Direct Link",
+      "size": "Remote",
+      "createdAt": "2026-03-03T11:42:11.935Z"
     }
-  ],
-  "edges": [],
-  "viewport": {
-    "x": 412.01,
-    "y": 154.54,
-    "zoom": 0.58
-  }
+  ]
 }
